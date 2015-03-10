@@ -8,9 +8,9 @@ $(function(){
 
 	var MessageView = Parse.View.extend({
 
-		template: Handlebars.compile($('#message-tpl').html()),
-		render: function(){
-			$this.el.html(this.template());
+		template : Handlebars.compile($('#message-tpl').html()),
+		render : function(){
+			this.$el.html(this.template());
 		}
 	});
 
