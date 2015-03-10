@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "PFBlogTest": {
+            "applicationId": "F9JwBgjiIktkVlGLlIHiFn7NPefiSZp9YqSkVfjc", 
+            "masterKey": "ueGEBJnKOLh5C04dadSYdg0h0VExFuyX8y5HdhPL"
+        }, 
+        "_default": {
+            "link": "PFBlogTest"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.5"
+    }
+}
