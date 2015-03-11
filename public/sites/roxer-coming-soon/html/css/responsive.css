@@ -1,0 +1,162 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	.dropdown i{
+		display: none;
+	}
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	/*title
+	============================*/
+	.sec-title {
+	    width: 90%
+	}
+	.sec-title:after{
+		left: 45%;
+	}
+	.sec-title:before{
+		right: 45%;
+	}
+	
+
+	/*Slider
+	===================*/
+	#textslider {
+	    height: 220px !important;
+	}
+	.middle{
+		width: 50%;
+		margin-left: -20px;
+	}
+	.middle  h2{
+		line-height: 55px;
+		font-size: 55px;
+	}
+	
+	/*LOGO
+	=========================*/
+	.logo-inner {
+	    width: 100%;
+	}
+
+	.logo-inner:after{
+		left: 35%;
+	}
+	.logo-inner:before{
+		right: 35%;
+	}
+	
+	/*Countdown
+	==========================*/
+	.countdown_section {
+		color: #fff;
+		font-size: 16px;
+		text-align: center;
+		text-transform: capitalize;
+		display:inline-block;
+		padding:0px 25px;
+		line-height: 16px;
+		position: relative;
+	}
+	
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+	
+}
+
+
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 767px)  {
+	
+
+	/*title
+	============================*/
+	.sec-title {
+	    width: 90%
+	}
+	.sec-title:after{
+		left: 35%;
+	}
+	.sec-title:before{
+		right: 35%;
+	}
+	
+
+	/*Slider
+	===================*/
+	#textslider {
+	    height: 130px !important;
+	}
+	.middle{
+		width: 50%;
+		margin-left: -20px;
+	}
+	.middle  h2{
+		line-height: 40px;
+		font-size: 25px;
+	}
+	
+	/*LOGO
+	=========================*/
+	.logo-inner {
+	    width: 100%;
+	}
+
+	.logo-inner:after{
+		left: 35%;
+	}
+	.logo-inner:before{
+		right: 35%;
+	}
+
+	
+	.heading-content li {
+	    color: #FFF;
+	    padding: 7px 0px;
+	    font-size: 16px;
+	}
+
+	/*Countdown
+	==========================*/
+	.countdown_section {
+		color: #fff;
+		font-size: 16px;
+		text-align: center;
+		text-transform: capitalize;
+		display:inline-block;
+		padding:0px 32px;
+		line-height: 16px;
+		position: relative;
+	}
+
+	/*Button
+	==================================*/
+	.btn-container .btn-primary {
+	    padding: 17px 15px;
+    	font-size: 12px;
+    	position: relative;
+	}
+
+
+	/*about
+	===================================*/
+	.singe-about{
+		padding: 20px 40px;
+	}
+	
+
+}
